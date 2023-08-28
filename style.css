@@ -1,0 +1,42 @@
+body {
+    background-image: url("imagen.jpg");
+    font-family: 'Trebuchet MS';
+  }
+  
+  .square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: darkgreen;
+    margin: 5px;
+    border-radius: 50%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  #message{
+      color: white;
+  
+  }
+  
+  #stripe{
+      background-color: grey;
+      height: 30px;
+      text-align: center;
+  }
+  
+  .selected{
+    background-color: red;
+  }
